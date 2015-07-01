@@ -130,8 +130,17 @@ Now that you have both the source code and Jekyll, you can start to make changes
 └── README.md
 ```
 
+### Change your working status
 
+Go to _data/your_netid_work.yml. Make changes according to the format. Jekyll takes care of the rest for you.
 
+### Change your About Me paragraph and Publications
+
+Go to people/your_netid.html. Make changes according to the format.
+
+### Change your head shot or the photo in your own page
+
+Go to group_member_photo. headshot is for the headshot in the people main page and full is the one in your own page. Make sure that the photo you submit have the same width as height and please try to get the size of the photo minimum under the condition that it doesn't reduce the quality when viewed on the website.
 
 
 
