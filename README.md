@@ -1,13 +1,16 @@
 ## How to maintain Hooberman HEP Group site
 
-Stored here is the source code for [Hooberman HEP Group Site](http://research.physics.illinois.edu/hooberman). The basic tool for compiling and testing is called Jekyll, which is supported on Windows, Mac OS and linux.
+Stored here is the source code for [Hooberman HEP Group Site](http://research.physics.illinois.edu/hooberman). The basic tool for compiling and testing is called Jekyll, which is supported on all the platforms, Windows, Mac OS and linux.
 
 This guide was written by Goten Cao. If you need any help, feel free to contact me at ycao31@illinois.edu. I got the idea of the site after successfully creating some Twiki pages and I found it useful to have a place to show our great group members and put what we have done and what we are doing. The design was from [Kwiat QI Group Page](http://research.physics.illinois.edu/QI/Photonics/) but I somewhat changed most of the design. During the process of making the website, I received huge support and help from the maintainer of their site, Rebecca Holmes.
 
 #### Table of Contents
 
+* [Don't edit those HTML files on the server!](#dont-edit-those-html-files-on-the server)
+
+
 * [Introduction](#introduction)
-  * [But first, wait! Don't edit those HTML files on the server!](#but-first-wait-dont-edit-those-html-files-on-the-server)
+  * [Don't edit those HTML files on the server!](#dont-edit-those-html-files-on-the-server)
   * [What is Jekyll?](#what-is-jekyll)
 * [Installation and setup](#installation-and-setup)
   * [Clone this GitHub repository](#clone-this-github-repository)
@@ -25,22 +28,22 @@ This guide was written by Goten Cao. If you need any help, feel free to contact 
   * [Adding a news post](#adding-a-news-post)
   * [Changing information about group members](#changing-information-about-group-members)
   * [Adding a new page and editing the navbar](#adding-a-new-page-and-editing-the-navbar)
-  * [Managing research topics](#managing-research-topics)
-    * [Editing the content of an existing topic](#editing-the-content-of-an-existing-topic)
-	* [Changing the order of existing topics](#changing-the-order-of-existing-topics)
-	* [Removing a topic](#removing-a-topic)
-	* [Adding a new topic](#adding-a-new-topic)
   * [Managing Publications](#managing-publications)
     * [Troubleshooting publications](#troubleshooting-publications)
     * [Bypassing publications management](#bypassing-publications-management)
 
 
-Introduction
-------------------
+#### Introduction
 
-The [Kwiat group website](http://research.physics.illinois.edu/QI/Photonics/) is maintained using Jekyll and files hosted on [GitHub](https://github.com/). This guide contains an overview of how Jekyll generates the site, and instructions for specific tasks like adding news posts or editing the navbar. It does not explain every detail of how Jekyll works, or every possible feature you might want to use. For more about what Jekyll can do, read the Jekyll documentation here: http://jekyllrb.com/docs/home/
+The [Hooberman HEP group website](http://research.physics.illinois.edu/hooberman/) is maintained using Jekyll and files hosted on [GitHub](https://github.com/). This guide contains an overview of how Jekyll generates the site, and instructions for specific tasks like adding news posts or editing the navbar. It does not explain every detail of how Jekyll works, or every possible feature you might want to use. For more about what Jekyll can do, read the Jekyll documentation here: http://jekyllrb.com/docs/home/
 
-###But first, wait! Don't edit those HTML files on the server!
+#####Don't edit those HTML files on the server!
+
+People may find it easy to simply change the html files on the server, but one thing to tell them is that all their changes will be gone after other people make changes using Jekyll.
+
+Why is this?
+
+All Hooberman HEP group members are supposed to know how to do coding. So I'll put it here. After we make changes to the code, the compilation process is also required in order to see the changes in the software.
 
 Seriously, don't do it. All will be explained! But basically, the way this works is that if you want to change something on the website, you're going to do the following:
 
