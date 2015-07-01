@@ -37,15 +37,15 @@ This guide was written by Goten Cao. If you need any help, feel free to contact 
 
 The [Hooberman HEP group website](http://research.physics.illinois.edu/hooberman/) is maintained using Jekyll and files hosted on [GitHub](https://github.com/). This guide contains an overview of how Jekyll generates the site, and instructions for specific tasks like adding news posts or editing the navbar. It does not explain every detail of how Jekyll works, or every possible feature you might want to use. For more about what Jekyll can do, read the Jekyll documentation here: http://jekyllrb.com/docs/home/
 
-#####Don't edit those HTML files on the server!
+####Don't edit those HTML files on the server!
 
 People may find it easy to simply change the html files on the server, but one thing to tell them is that all their changes will be gone after other people make changes using Jekyll.
 
 Why is this?
 
-All Hooberman HEP group members are supposed to know how to do coding. So I'll put it here. After we make changes to the code, the compilation process is also required in order to see the changes in the software.
+All Hooberman HEP group members are supposed to know how to do coding. So I'll put it directly here. After we make changes to the code, the compilation process is also required in order to see the changes in the software. Jekyll is the same case. Although html is equal to the plain text plus descriptive tags, there are lots of sub-parts of the website are used lots of times. Without Jekyll, you have to copy/paste each time you create a page. With Jekyll, you can just use layouts and variables by Liquid language and Jekyll will turn these stuff to the webpage you wish to have. In other words, Jekyll reduces the time cost and complexity.
 
-Seriously, don't do it. All will be explained! But basically, the way this works is that if you want to change something on the website, you're going to do the following:
+
 
 1. Edit a file in this GitHub repository
 2. Run Jekyll
