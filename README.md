@@ -7,31 +7,23 @@ This guide was written by Goten Cao. If you need any help, feel free to contact 
 ## Table of Contents
 
 * [Don't edit those HTML files on the server!](#dont-edit-those-html-files-on-the server)
-
-
-* [Introduction](#introduction)
-  * [Don't edit those HTML files on the server!](#dont-edit-those-html-files-on-the-server)
-  * [What is Jekyll?](#what-is-jekyll)
-* [Installation and setup](#installation-and-setup)
-  * [Clone this GitHub repository](#clone-this-github-repository)
-  * [Install Ruby and Jekyll](#install-ruby-and-jekyll)
-  * [Install bibtex2html](#install-bibtex2html)
-  * [Optional: Install Mendeley](#optional-install-mendeley)
-* [Running Jekyll](#running-jekyll)
-  * [Updating the live website](#updating-the-live-website)
-  * [Hosting the site locally](#hosting-the-site-locally)
-* [A brief description of how Jekyll works](#a-brief-description-of-how-jekyll-works)
-  * [YAML frontmatter](#yaml-frontmatter)
-  * [Markdown](#markdown)
-  * [Liquid](#liquid)
-* [How to do specific tasks](#how-to-do-specific-tasks)
-  * [Adding a news post](#adding-a-news-post)
-  * [Changing information about group members](#changing-information-about-group-members)
-  * [Adding a new page and editing the navbar](#adding-a-new-page-and-editing-the-navbar)
-  * [Managing Publications](#managing-publications)
-    * [Troubleshooting publications](#troubleshooting-publications)
-    * [Bypassing publications management](#bypassing-publications-management)
-
+* [What you are supposed to do.](#what-you-are-supposed-to-do)
+* [Setup](#setup)
+  * [Github](#github)
+  * [Jekyll](#jekyll)
+* [Make changes](#make-changes)
+  * [Change your working status](#change-your-working-status)
+  * [Change your About Me paragraph and Publications](#change-your-about-me-paragraph-and-publications)
+  * [Change your head shot or the photo in your own page](#change-your-head-shot-or-the-photo-in-your-own-page)
+  * [Add News](#add-news)
+  * [Add publications for Ben](#add-publications-for-ben)
+* [Test locally](#test-locally)
+* [Build and upload](#build-and-upload)
+  * [Get access to the remote server](#get-access-to-the-remote-server)
+* [Sync your change to github](#sync-your-change-to-github)
+* [What if what you want to do are not listed above?](#what-if-what-you-wnat-to-do-are-not-listed-above)
+  * [Jekyll](#jekyll)
+  * [Bootstrap](#bootstrap)
 
 ## Don't edit those HTML files on the server!
 
@@ -144,19 +136,19 @@ Go to `group_member_photo`. `/headshot` is for the headshot in the people main p
 
 ### Add News
 
-Go to /_post and follow the format there.
+Go to `_post` and follow the format there.
 
 ### Add publications for Ben
 
-Go to /publications and change the stuff in index.html according to the format.
+Go to `publications` and change the stuff in index.html according to the format.
 
 ## Test locally
 
-You've made the change! But please test locally to make sure it works fine before upload it to the server. Go to the directory of the site in your terminal and do the command
+You've made the changes! But please test locally to make sure it works fine before upload it to the server. Go to the directory of the site in your terminal and do the command
 ```
 jekyll serve
 ```
-Then inside the terminal window, there is an address provided. For me, it's 127.0.0.1:4000. And I just go to 127.0.0.1:4000/hooberman in the browser. And you are able to have a look at your changes.
+Then inside the terminal window, there will be an address provided. For me, it's 127.0.0.1:4000. And I just go to 127.0.0.1:4000/hooberman in the browser. This way you are able to have a look at your changes.
 
 ## Build and upload
 
@@ -164,31 +156,31 @@ Now that you've tested locally, you can move to build and upload. Building(compi
 ```
 jekyll build
 ```
-After this, the generated site will be stored in the folder /_site
+After this, the generated site will be stored in the folder `_site`
 
 ### Get access to the remote server
 
 I've asked the webmaster to grant all of our members the access to the server. But if there are new comers, please email engrit-help@illinois.edu to get added.
 
-The server locates at \\\engr-web-02.engr.illinois.edu\research.physics.illinois.edu\hooberman.
+The server locates at `\\engr-web-02.engr.illinois.edu\research.physics.illinois.edu\hooberman`.
 
 You may access to it either by using a campus Windows computer (remote access is also fine) or using the [vpn](https://www.cites.illinois.edu/vpn/download-install.html).
 
-Once you reach there, simply copy the files in the /_site folder to the server. If you know which file you've changed, it's always better if you only replace that file.
+Once you reach there, simply copy the files in the `_site` folder to the server. If you know which file you've changed, it's always better if you only replace that file.
 
 ## Sync your change to github
 
-At last, don't forget to sync your changes to github. And please delete all the files in the folder /_site before you commit.
+At last, don't forget to sync your changes to github. And please delete all the files in the folder `_site` before you commit.
 
-## What you want to do are not listed here?
+## What if what you want to do are not listed above?
 
-Here are some more details.
+Here are some more details about jekyll and other stuff.
 
 ### Jekyll
 
 Please read [Jekyll documentations](http://jekyllrb.com/docs/home/). And I'll explain how Jekyll works.
 
-You may spot that some folders in the directory start with _. These folders are used by Jekyll to make our lifes easier. Stored in these folders are the sub-parts of the page and also texts in other formats like markdown. As a result, these folders will not be copied to the generated site. And the folders starting without _ or . will be 100% copied to the generated site folder.
+You may spot that some folders in the directory start with `_`. These folders are used by Jekyll to make our lifes easier. Stored in these folders are the sub-parts of the page and also texts in other formats like markdown. As a result, these folders will not be copied to the generated site. And the folders starting without `_` or `.` will be 100% copied to the generated site folder.
 
 You may also find things like this at the front of the html file.
 
@@ -199,7 +191,7 @@ title: People
 ---
 
 ```
-These are called YAML frontmatter, which you can find documentation in Jekyll documentation page. What this does is to use the layout people.html in _layout.
+These are called YAML frontmatter, which you can find documentation about in Jekyll documentation page. What this does is to use the layout people.html in _layout.
 
 Also, you can see things like 
 ```
