@@ -132,20 +132,31 @@ Now that you have both the source code and Jekyll, you can start to make changes
 
 ### Change your working status
 
-Go to _data/your_netid_work.yml. Make changes according to the format. Jekyll takes care of the rest for you.
+Go to /_data/your_netid_work.yml. Make changes according to the format. Jekyll takes care of the rest for you.
 
 ### Change your About Me paragraph and Publications
 
-Go to people/your_netid.html. Make changes according to the format.
+Go to /people/your_netid.html. Make changes according to the format.
 
 ### Change your head shot or the photo in your own page
 
-Go to group_member_photo. headshot is for the headshot in the people main page and full is the one in your own page. Make sure that the photo you submit have the same width as height and please try to get the size of the photo minimum under the condition that it doesn't reduce the quality when viewed on the website.
+Go to /group_member_photo. /headshot is for the headshot in the people main page and /full is the one in your own page. Make sure that the photo you submit have the same width as height and please try to get the size of the photo to its minimum under the condition that it doesn't reduce the quality when viewed on the website.
 
+### Add News
 
+Go to /_post and follow the format there.
 
+### Add publications for Ben
 
+Go to /publications and change the stuff in index.html according to the format.
 
+## Test locally
+
+You've made the change! But please test locally to make sure it works fine before upload it to the server. Go to the directory of the site in your terminal and do the command
+```
+jekyll serve
+```
+Then inside the terminal window, there is an address provided. For me, it's 127.0.0.1:4000. And for me, I just go to 127.0.0.1:4000/hooberman in the browser. And you can see your changes.
 
 
 
