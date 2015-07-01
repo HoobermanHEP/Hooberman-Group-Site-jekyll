@@ -35,7 +35,7 @@ This guide was written by Goten Cao. If you need any help, feel free to contact 
 
 ## Don't edit those HTML files on the server!
 
-People may find it easy to simply change the html files on the server, but one thing to tell them is that all their changes will be gone after other people make changes using Jekyll. If you don't want to make changes yourself, simply send me the stuff you want to add.
+People may find it easy to simply change the html files on the server, but one thing to tell them is that all their changes will be gone after other people make changes using Jekyll. If you find it difficult to make changes yourself, simply send me the stuff you want to add.
 
 ### Why is this?
 
@@ -126,7 +126,7 @@ Now that you have both the source code and Jekyll, you can start to make changes
 ├── publications
 ├── research
 ├── _config.yml
-├── imdex.html
+├── index.html
 └── README.md
 ```
 
@@ -156,8 +156,25 @@ You've made the change! But please test locally to make sure it works fine befor
 ```
 jekyll serve
 ```
-Then inside the terminal window, there is an address provided. For me, it's 127.0.0.1:4000. And for me, I just go to 127.0.0.1:4000/hooberman in the browser. And you can see your changes.
+Then inside the terminal window, there is an address provided. For me, it's 127.0.0.1:4000. And I just go to 127.0.0.1:4000/hooberman in the browser. And you are able to have a look at your changes.
 
+## Build and upload
+
+Now that you've tested locally, you can move to build and upload. Building(compiling) is simply by the command
+```
+jekyll build
+```
+After this, the generated site will be stored in the folder /_site
+
+### Get access to the remote server
+
+I've asked the webmaster to grant all of our members the access to the server. But if there are new comers, please email engrit-help@illinois.edu to get added.
+
+The server locates at \\engr-web-02.engr.illinois.edu\research.physics.illinois.edu\hooberman.
+
+You may access to it either by using a campus Windows computer (remote access is also fine) or using the [vpn](https://www.cites.illinois.edu/vpn/download-install.html).
+
+Once you reach there, simply copy the files in the /_site folder to the server. If you know which file you've changed, it's always better if you only replace that file.
 
 
 
