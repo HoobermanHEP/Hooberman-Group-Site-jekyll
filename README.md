@@ -1,12 +1,6 @@
-How to maintain Hooberman HEP Group site
+## How to maintain Hooberman HEP Group site
 
-# Hooberman-Group-Site-jekyll
-Source code for Hooberman Group Site
-
-Maintaining the Kwiat group website with Jekyll
-==================
-
-This is a guide to maintaining the [Kwiat group website](http://research.physics.illinois.edu/QI/Photonics/) using Jekyll and other tools.
+Stored here are the source codes for [Hooberman HEP Group Site](http://research.physics.illinois.edu/hooberman). The basic tool for compiling and testing is called Jekyll.
 
 This guide was written by Rebecca Holmes. Contact me at rholmes4@illinois.edu if you need help.
 
