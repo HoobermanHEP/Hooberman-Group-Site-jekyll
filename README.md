@@ -6,11 +6,11 @@ This guide was written by Goten Cao. If you need any help, feel free to contact 
 
 ## Table of Contents
 
-* [Don't edit those HTML files on the server!](#dont-edit-those-html-files-on-the server)
+* [Don't edit those HTML files on the server!](#dont-edit-those-html-files-on-the-server)
 * [What you are supposed to do.](#what-you-are-supposed-to-do)
 * [Setup](#setup)
   * [Github](#github)
-  * [Jekyll](#jekyll)
+  * [Jekyll Installation](#jekyll-installation)
 * [Make changes](#make-changes)
   * [Change your working status](#change-your-working-status)
   * [Change your About Me paragraph and Publications](#change-your-about-me-paragraph-and-publications)
@@ -22,7 +22,7 @@ This guide was written by Goten Cao. If you need any help, feel free to contact 
   * [Get access to the remote server](#get-access-to-the-remote-server)
 * [Sync your change to github](#sync-your-change-to-github)
 * [What if what you want to do are not listed above?](#what-if-what-you-wnat-to-do-are-not-listed-above)
-  * [Jekyll](#jekyll)
+  * [More about Jekyll](#more-about-jekyll)
   * [Bootstrap](#bootstrap)
 
 ## Don't edit those HTML files on the server!
@@ -58,7 +58,7 @@ You need Github and Jekyll to do the work.
 
 3. From GitHub web page, find the repository Hooberman-Group-Site-jekyll, and click "Clone in Desktop" on the bottom right and get the files on your local computer.
 
-### Jekyll
+### Jekyll Installation
 
 Jekyll is based on the programming language Ruby, which you must install in order to run Jekyll. (You don't need to know how to use Ruby.) Once Ruby is installed, you can easily install Jekyll and a few other necessary programs.
 
@@ -176,7 +176,7 @@ At last, don't forget to sync your changes to github. And please delete all the 
 
 Here are some more details about jekyll and other stuff.
 
-### Jekyll
+### More about Jekyll
 
 Please read [Jekyll documentations](http://jekyllrb.com/docs/home/). And I'll explain how Jekyll works.
 
