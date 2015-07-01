@@ -2,7 +2,7 @@
 
 Stored here are the source codes for [Hooberman HEP Group Site](http://research.physics.illinois.edu/hooberman). The basic tool for compiling and testing is called Jekyll.
 
-This guide was written by Rebecca Holmes. Contact me at rholmes4@illinois.edu if you need help.
+This guide was written by Goten Cao. If you need any help, feel free to contact me at ycao31@illinois.edu. I got the idea of the site after successfully creating some Twiki pages and I find it useful to have a place to show our great group members and put what we have done and what we are doing.
 
 *NOTE: I built this website using Jekyll on Windows 7. Jekyll and most of the other tools needed to maintain the website are also available for Mac and Linux, but I don't have any experience using them on other platforms.*
 
