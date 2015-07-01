@@ -1,0 +1,25 @@
+# Working status for Goten Cao
+
+- name: "QuickAna mini-ntuple Processing for Z and photon sample (Cooperating with Matt and Jon)"
+  status: "Waiting for code to be tagged."
+  percentage: 0
+
+- name: "X->ZW Trilepton Signal Study"
+  status: "Getting rid of 0 entries in the ntuple."
+  percentage: 30
+
+- name: "Group Site development"
+  status: "Brainstorming to make the site look better and have better functions. Also waiting for Ben, Kairui and Matt to finish parts of the site."
+  percentage: 75
+
+- name: "Dilepton Analysis CERN Twiki"
+  status: "Done."
+  percentage: 100
+
+- name: "Truth Information Display function in Common Tools"
+  status: "Done."
+  percentage: 100
+
+- name: "Detector Optimization Study by IDres"
+  status: "Done."
+  percentage: 100

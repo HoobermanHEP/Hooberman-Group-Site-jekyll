@@ -1,0 +1,31 @@
+# A list of current group members.
+
+- name: "Group Leader"
+  people:
+    - name: "Benjamin Hooberman"
+      image: "../group_member_photo/headshot/headshot_benhoob.jpg"
+      netid: "benhoob"
+
+- name: "Postdocs"
+  people:
+    - name: "Jonathan Long"
+      image: "../group_member_photo/headshot/headshot_longjond.jpg"
+      netid: "longjond"
+
+- name: "Graduate Students"
+  people:
+    - name: "Ruo-Yu Shang"
+      image: "../group_member_photo/headshot/headshot_rshang2.jpg"
+      netid: "rshang2"
+    - name: "Matt Zhang"
+      image: "../group_member_photo/headshot/headshot_mzhang60.jpg"
+      netid: "mzhang60"
+      
+- name: "Undergraduate Students"
+  people:
+    - name: "Yumeng Cao (Goten)"
+      image: "../group_member_photo/headshot/headshot_ycao31.jpg"
+      netid: "ycao31"
+    - name: "Kairui Zhang"
+      image: "../group_member_photo/headshot/headshot_kzhang28.jpg"
+      netid: "kzhang28"

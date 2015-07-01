@@ -1,0 +1,18 @@
+# Site settings
+
+name: "Hooberman High Energy Group"
+description: "Hooberman High Energy Group Site"
+
+url: "http://research.physics.illinois.edu/hooberman"
+baseurl: "/hooberman"
+
+
+# Build settings
+markdown: rdiscount
+permalink: pretty
+highlighter: null
+excerpt_separator: <!--more-->
+encoding: utf-8
+
+gems:
+  - jekyll-sitemap

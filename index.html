@@ -1,0 +1,25 @@
+---
+layout: home
+title: Home
+---
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2><span class="label label-default">News</span></h2>
+    </div>
+  </div>
+  </br>
+  <div class="newsbox">
+    {% for post in site.posts limit:5 %}
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">{{ post.title }}</h3>
+        </div>
+        <div class="panel-body">
+          {{ post.content }}
+        </div>
+        <h5 class="panel-footer">{{ post.date | date: '%B %-d, %Y' }}</h5>
+      </div>
+    {% endfor %}
+  </div>
+</div>

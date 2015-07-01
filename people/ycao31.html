@@ -1,0 +1,64 @@
+---
+layout: people
+title: Yumeng Cao (Goten)
+---
+<div class="container">
+	<div class="people">
+		<h2>Yumeng Cao (Goten) </h2>
+    <h4>曹宇萌</h4>
+		<img src="../../group_member_photo/full/full_ycao31.jpg" alt="Goten(Yumeng) Cao" height="150" width="150" title="Goten(Yumeng) Cao">
+		</br></br>
+		<div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">About me</h3>
+      </div>
+      <div class="panel-body">
+        Hi! I am Goten, an international student from mainland China. You can call me a crazy guy of science if you prefer because what I want to do the most are in the "classically forbidden region", such as teleportation, permanent life, infinite energy, and soul transfer. In other words, I enjoy turning impossibilities to possibilities. I've decided to pursue a physics PhD since a very early age though I also have broad interests in lots of other fields, especially character voice and music composition. As for my interests in physics, among the top are teleportation(not quantum teleportation), dark matter, extra dimentions of spacetime, and quantum computers. Just recently, Dr. Eric W. Davis, who is one of the greatest people for warp drive study, emailed me that it would roughly take 100-500 years for humans to achieve the goal. Thus I decide to do work mostly on particle physics and little on teleportation. Outside the field of physics, I am also interested in starting an idea-based company to link the experts and the normal people who get great ideas.
+      </div>
+    </div>
+    <div class="panel panel-primary publications">
+      <div class="panel-heading">
+        <h3 class="panel-title">Selected Publications</h3>
+      </div>
+      <div class="panel-body">
+        <!-- <a href="http://arxiv.org/abs/1503.03290"><b>Search for supersymmetry in events containing a same-flavour opposite-sign dilepton pair, jets, and large missing transverse momentum in 8 TeV pp collisions with the ATLAS detector</b> </a> </br>
+        ATLAS Collaboration, <i>arXiv:1503.03290 [hep-ex], accepted by EPJC</i>. -->
+      </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Working Status</h3>
+      </div>
+      <div class="panel-body">
+        {% for job in site.data.ycao31_work %}
+          <h4><b>{{ job.name }}</b></h4>
+          <p>Status: {{job.status}}</p>
+          {% if job.percentage <= 10 %}
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: {{job.percentage}}%"><span class="sr-only"></span></div>
+            </div>
+          {% elsif job.percentage <= 30 %}
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: {{job.percentage}}%"><span class="sr-only"></span></div>
+            </div>
+          {% elsif job.percentage <= 75 %}
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: {{job.percentage}}%"><span class="sr-only"></span></div>
+            </div>
+          {% elsif job.percentage <= 90 %}
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: {{job.percentage}}%"><span class="sr-only"></span></div>
+            </div>
+          {% else %}
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: {{job.percentage}}%"><span class="sr-only"></span></div>
+            </div>
+          {% endif %}
+          <hr>
+        {% endfor %}
+      </div>
+    </div>
+    
+	</div>
+</div>

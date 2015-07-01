@@ -1,0 +1,183 @@
+/* Basic site-wide CSS */
+body  {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:15px;
+  color:#484848;
+  padding-top: 50px; /* Proper positioning of content below fixed navbar */
+  padding-bottom: 20px; 
+}
+
+/* Styles for links */
+a {
+  color:#3d99d4;
+}
+
+a:hover {
+  color:#3d99d4;
+}
+
+a:visited {
+  color:#3d99d4;
+}
+
+/* Styles for all fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: lighter;
+}
+
+/* CSS for special font sizes */
+.footer {
+  font-size:12px;
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left; /* reset the text-align */
+  margin-right:-4px; /* inline-block space fix */
+}
+
+/* For proper linking to locations on page with 50 px fixed navbar. Used where "section" is not appropriate. */
+.anchor {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+/* CSS for the navbar and dropdown menus */
+
+.navbar .nav {
+  float:right;
+  font-size:15px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+li .highlight {
+  background-color:#5dbe3f;
+}
+
+li .highlight > a {
+  font-size:16px;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block; /* Makes dropdown items display on hover */
+}
+
+.navbar-default {
+  background-color: #000000;
+  border-color: #545353;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #62d450;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #62d450;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #5dbe3f;
+  background-color: #353536;
+  font-weight:normal;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #5dbe3f;
+  background-color: #838283;
+}
+.navbar-default .navbar-toggle {
+  border-color: #838283;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #838283;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #5dbe3f;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #5dbe3f;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #5dbe3f;
+    background-color: #838283;
+  }
+}
+
+/*CSS style for the newsbox*/
+.newsbox {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*CSS style for the research*/
+.research .panel-heading a{
+  color:#FFFFFF;
+}
+
+.research .panel-heading a:hover {
+  color:#FFFFFF;
+}
+
+.research .panel-heading a:visited {
+  color:#FFFFFF;
+}
+
+/*CSS style for the publication*/
+.publication a{
+  color:#000000;
+}
+
+.publication a:hover {
+  color:#000000;
+}
+
+.publication a:visited {
+  color:#000000;
+}
+
