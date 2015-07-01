@@ -1,8 +1,8 @@
 ## How to maintain Hooberman HEP Group site
 
-Stored here are the source codes for [Hooberman HEP Group Site](http://research.physics.illinois.edu/hooberman). The basic tool for compiling and testing is called Jekyll.
+Stored here is the source code for [Hooberman HEP Group Site](http://research.physics.illinois.edu/hooberman). The basic tool for compiling and testing is called Jekyll.
 
-This guide was written by Goten Cao. If you need any help, feel free to contact me at ycao31@illinois.edu. I got the idea of the site after successfully creating some Twiki pages and I find it useful to have a place to show our great group members and put what we have done and what we are doing.
+This guide was written by Goten Cao. If you need any help, feel free to contact me at ycao31@illinois.edu. I got the idea of the site after successfully creating some Twiki pages and I found it useful to have a place to show our great group members and put what we have done and what we are doing. The design was from [Kwiat QI Group Page](http://research.physics.illinois.edu/QI/Photonics/) but I somewhat changed most of the design. I received huge support and help from the maintainer of their site, Rebecca Holmes.
 
 *NOTE: I built this website using Jekyll on Windows 7. Jekyll and most of the other tools needed to maintain the website are also available for Mac and Linux, but I don't have any experience using them on other platforms.*
 
