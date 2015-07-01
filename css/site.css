@@ -156,17 +156,32 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 /*CSS style for the research*/
-.research .panel-heading a{
-  color:#FFFFFF;
+.research .research_intro .panel-heading a{
+  color: #3c763d;
 }
 
-.research .panel-heading a:hover {
-  color:#FFFFFF;
+.research .research_intro .panel-heading a:hover {
+  color: #3c763d;
 }
 
-.research .panel-heading a:visited {
-  color:#FFFFFF;
+.research .research_intro .panel-heading a:visited {
+  color: #3c763d;
 }
+
+.research .interested .panel-heading a{
+  color: #FFFFFF;
+}
+
+.research .interested .panel-heading a:hover {
+  color: #FFFFFF;
+}
+
+.research .interested .panel-heading a:visited {
+  color: #FFFFFF;
+}
+
+
+
 
 /*CSS style for the publication*/
 .publication a{
