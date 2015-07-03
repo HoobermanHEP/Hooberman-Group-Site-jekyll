@@ -5,8 +5,8 @@
   percentage: 0
 
 - name: "X->ZW Trilepton Signal Study"
-  status: "Getting rid of 0 entries in the ntuple."
-  percentage: 30
+  status: "Waiting for next step."
+  percentage: 50
 
 - name: "Group Site development"
   status: "Done. Turned to maintaining state."
