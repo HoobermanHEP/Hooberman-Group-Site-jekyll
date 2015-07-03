@@ -12,7 +12,6 @@ This guide was written by Goten Cao. If you need any help, feel free to contact 
   * [Github](#github)
   * [Jekyll Installation](#jekyll-installation)
 * [Make changes](#make-changes)
-  * [Change your working status](#change-your-working-status)
   * [Change your About Me paragraph and Publications](#change-your-about-me-paragraph-and-publications)
   * [Change your head shot or the photo in your own page](#change-your-head-shot-or-the-photo-in-your-own-page)
   * [Add News](#add-news)
@@ -121,11 +120,6 @@ Now that you have both the source code and Jekyll, you can start to make changes
 ├── index.html
 └── README.md
 ```
-
-### Change your working status
-
-Go to `_data/your_netid_work.yml`. Make changes according to the format. Jekyll takes care of the rest for you.
-
 ### Change your About Me paragraph and Publications
 
 Go to `people/your_netid.html`. Make changes according to the format.
