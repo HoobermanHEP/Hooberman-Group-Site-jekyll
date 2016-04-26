@@ -1,0 +1,66 @@
+---
+layout: default
+title: Join Us
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Join Us</h1>
+    </div>
+  </div>
+
+  <h3><i>If you are excited about Experimental High Energy Physics, do not hesitate to join us!</i></h3></br>
+
+  <div class="panel panel-success">
+  	<div class="panel-heading">
+		<div class="panel-title"><i><b>How to join us?</b></i></div>
+	</div>
+	<div class="panel-body">
+		You can either send an email to Prof. Benjamin Hooberman at <a href="mailto:benhoob@illinois.edu"><i>benhoob AT illinois.edu</i></a> or stop by at 413 Loomis Laboratory.</br>
+	</div>
+  </div>
+
+  <div class="panel panel-success">
+  	<div class="panel-heading">
+		<div class="panel-title"><i><b>Once I become a member, what are the next steps?</b></i></div>
+	</div>
+	<div class="panel-body">
+		We are in the ATLAS collaboration, so you'll have to set up the CERN account by following the <a href="http://twiki.hep.uiuc.edu/bin/view/Sandbox/FromScratch">tutorial</a> written by a former student, Philip Chang. It generally takes 2 weeks to get everything set up, so just relax and there is no rush. Although the tutorial is quite helpful, it's a little bulky. Also, it is written in a general sense, and usually we do not have to finish all of them. The steps we need are listed as follows:</br></br>
+
+		<b>Step 1:</b> Gather the appropriate documents and register as an ATLAS user with CERN.</br>
+		<b>Step 2:</b> Register for UIUC TWiki.</br>
+		<b>Step 3:</b> Log on to CERN's computing environment (lxplus).</br>
+		<b>Step 4:</b> Obtaining a GRID Certificate, and import it to both your browser and your lxplus directory.</br>
+		<b>Step 5:</b> Contact any of our group members to be added to our skype group, our vidyo room and our group website.</br></br>
+
+		<b>CERN Account:</b> After getting the CERN account, you'll be able to get access to logs of CERN resources, including CERN email (@cern.ch), lxplus (some remote linux computers), CERN TWiki (A Wiki for CERN used for record keeping and terminology definition), Vidyo (Video Conference Software), Indico (Conference Schedule, where you can download the slides for the talks), CERN SVN (where you get code from other colleagues and share your code) and so on.</br></br>
+
+		<b>UIUC TWiki:</b> UIUC TWiki is our own Twiki where you can do your own record keeping. Besides, as long as you learn new terms, it is recommended that you add them to the <a href="https://twiki.hep.uiuc.edu/bin/view/ATLAS/Glossary">glossary page</a> on UIUC TWiki.</br></br>
+
+		<b>LXPLUS:</b> In our group, we use lxplus for most of the time. By svn commands, you can get the codes you'll work on. By rucio commands, you can look for and download the samples. There are 2 lxplus directories you can see: <b>user</b> and <b>work</b>. User directory is your login point, with a maximum storage of 10 GB. You generally store the running codes here. Work directory has a maximum storage of 100 GB, and it's usually used to store samples. You have to manually increase the storage <a href="https://resources.web.cern.ch/resources/Manage/AFS/Settings.aspx">here</a>, but it's no more difficult than clicking your mouse. There is another file service, called <a href="https://cern.service-now.com/service-portal/article.do?n=KB0001998&s=eos%20tutorial">EOS</a>. You have to ask for it by sending an email to <i>atlas-support@cern.ch</i> from your CERN email account. A sample email can be asked from any of our group members. Besides, the command line text editors are not easy to use for beginners. So unless you are familiarized with text editors like Emacs, it's recommended to use <a href="https://twiki.hep.uiuc.edu/bin/view/ATLAS/Cyberduck">Cyberduck</a>.</br></br>
+
+		<b>GRID Certificate:</b> GRID Certificate is very important. Only after you import it onto lxplus can you use rucio commands and doing GRID job.
+	</div>
+  </div>
+
+  <div class="panel panel-success">
+  	<div class="panel-heading">
+		<div class="panel-title"><i><b>May I have a taste of the work?</b></i></div>
+	</div>
+	<div class="panel-body">
+		The answer is YES! When counting the days to have all the steps on the tutorial completed, why not make a better use of the time? Even if you are not sure whether to join us, you are still recommended to try the things below, because this is the best way to know if what we are doing suits your intersts the most.</br></br>
+
+		Then let's make some ROOT plots!</br></br>
+		HEP Physicists speak with plots, so making plots is one of the most important things we do. You can download ROOT <a href="https://root.cern.ch/downloading-root">here.</a></br>
+		You are always making plots with samples, <a href="https://drive.google.com/open?id=0B7_vosH0Fm0yTXJBdXpDX044aHM">here</a> is a sample you can use.</br></br>
+		<i>Steps:</i></br>
+		1. Open up the root file with ROOT. You can do root -l file_location or you can attach the root file after you get into ROOT. -l is a life saver... You can try running the command wihtout -l. And you'll see ROOT is a trouble maker by default.</br>
+		2. Look at what the ROOT file has: do the command new TBrowser. You’ll see what’s inside a ROOT file, to be specific, trees and branches.</br>
+		3. We store the stuff we need in outputTree. You can view what’re inside outputTree by doing outputTree->Print().</br>
+		4. You can print out any single histogram you want by doing outputTree->Draw(“mll”), for example. Try producing the plots for MET and mu_pT.</br>
+		5. After this, try applying the cut when drawing. You do this by outputTree->Draw(“mll”,TCut String). For example, outputTree->Draw(“mll”,”mll>100”) or outputTree->Draw(“mll”,”MET>100”) or outputTree->Draw(“mll”,”mll>100 && MET>100”). Try doing something like this for MET and mu_pT plot.</br>
+	</div>
+  </div>
+</div>
+

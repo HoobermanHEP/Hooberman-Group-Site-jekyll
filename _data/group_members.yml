@@ -14,6 +14,9 @@
 
 - name: "Graduate Students"
   people:
+    - name: "Yumeng Cao (Goten)"
+      image: "../group_member_photo/headshot/headshot_ycao31.jpg"
+      netid: "ycao31"
     - name: "Ruo-Yu Shang"
       image: "../group_member_photo/headshot/headshot_rshang2.jpg"
       netid: "rshang2"
@@ -23,9 +26,9 @@
       
 - name: "Undergraduate Students"
   people:
-    - name: "Yumeng Cao (Goten)"
-      image: "../group_member_photo/headshot/headshot_ycao31.jpg"
-      netid: "ycao31"
+    - name: "Yang Lyu"
+      image: "../group_member_photo/headshot/headshot_yanglyu2.jpg"
+      netid: "yanglyu2"
     - name: "Kairui Zhang"
       image: "../group_member_photo/headshot/headshot_kzhang28.jpg"
       netid: "kzhang28"
