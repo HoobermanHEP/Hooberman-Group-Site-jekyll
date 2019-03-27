@@ -2,36 +2,54 @@
 
 - name: "Group Leader"
   people:
-    - name: "Benjamin Hooberman"
+    - name: "Dr. Benjamin Hooberman"
       image: "../group_member_photo/headshot/headshot_benhoob.jpg"
       netid: "benhoob"
 
 - name: "Postdocs"
   people:
-    - name: "Jonathan Long"
+    - name: "Dr. Jonathan Long"
       image: "../group_member_photo/headshot/headshot_longjond.jpg"
       netid: "longjond"
 
 - name: "Graduate Students"
   people:
-    - name: "Goten Cao"
-      image: "../group_member_photo/headshot/headshot_ycao31.jpg"
+    - name: "Yumeng Cao"
+      image: "../group_member_photo/headshot/headshot_ycao31.png"
       netid: "ycao31"
-    - name: "Ruo-Yu Shang"
-      image: "../group_member_photo/headshot/headshot_rshang2.jpg"
-      netid: "rshang2"
     - name: "Matt Zhang"
       image: "../group_member_photo/headshot/headshot_mzhang60.jpg"
       netid: "mzhang60"
       
 - name: "Undergraduate Students"
   people:
-    - name: "Yang Lyu"
+    - name: "Amelia Launspach"
+      image: "../group_member_photo/headshot/headshot_launspa2.jpg"
+      netid: "launspa2"
+    - name: "Anil Radhakrishnan"
+      image: "../group_member_photo/headshot/headshot_anilr2.png"
+      netid: "anilr2"
+
+- name: "Past Members"
+  people:
+    - name: "Johny Echevers <h4>Graduate Student</h4>"
+      image: "../group_member_photo/headshot/headshot_jme3.jpg"
+      netid: "jme3"
+    - name: "Dr. Ruo-Yu Shang <h4>Graduate Student</h4>"
+      image: "../group_member_photo/headshot/headshot_rshang2.jpg"
+      netid: "rshang2"
+    - name: "Yang Lyu <br/> <h4>Undergraduate Student</h4>"
       image: "../group_member_photo/headshot/headshot_yanglyu2.jpg"
       netid: "yanglyu2"
-    - name: "Daniel Salazar"
+    - name: "Daniel Salazar <br/> <h4>Undergraduate Student</h4>"
       image: "../group_member_photo/headshot/headshot_dnsalaz2.jpg"
       netid: "dnsalaz2"
-    - name: "Kairui Zhang"
+    - name: "Kairui Zhang <br/> <h4>Undergraduate Student</h4>"
       image: "../group_member_photo/headshot/headshot_kzhang28.jpg"
       netid: "kzhang28"
+
+- name: "Members from Other Departments"
+  people:
+    - name: "Junze Liu <h4>from ECE department</h4>"
+      image: "../group_member_photo/headshot/headshot_junzel2.jpg"
+      netid: "junzel2"
