@@ -5,21 +5,19 @@ title: Home
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <h2><span class="label label-default">News</span></h2>
+      <h2><span class="label label-success">Current Major Projects (ATLAS at CERN)</span></h2>
     </div>
   </div>
   </br>
   <div class="newsbox">
-    {% for post in site.posts limit:5 %}
-      <div class="panel panel-info">
-        <div class="panel-heading">
-          <h3 class="panel-title">{{ post.title }}</h3>
-        </div>
-        <div class="panel-body">
-          {{ post.content }}
-        </div>
-        <h5 class="panel-footer">{{ post.date | date: '%B %-d, %Y' }}</h5>
-      </div>
-    {% endfor %}
+	 <div class="alert alert-success" >
+	   LHC <b>Supersymmetry (SUSY)</b> Searches with 2 Leptons + Jets + Missing Transverse Energy
+	 </div>
+	 <div class="alert alert-success" >
+	   Exploit recent advances in <b>Machine Learning</b> to probe challenging scenarios in LHC Supersymmetry Searches
+	 </div>
+	 <div class="alert alert-success" >
+	   Major Phase-II <b>track trigger / detector</b> upgrade (<b>Fast TracKer</b>)
+	 </div>
   </div>
 </div>

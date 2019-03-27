@@ -29,6 +29,12 @@
     - name: "Anil Radhakrishnan"
       image: "../group_member_photo/headshot/headshot_anilr2.png"
       netid: "anilr2"
+      
+- name: "Members from Other Departments"
+  people:
+    - name: "Junze Liu <h4>Master Student from ECE department</h4>"
+      image: "../group_member_photo/headshot/headshot_junzel2.jpg"
+      netid: "junzel2"
 
 - name: "Past Members"
   people:
@@ -47,9 +53,3 @@
     - name: "Kairui Zhang <br/> <h4>Undergraduate Student</h4>"
       image: "../group_member_photo/headshot/headshot_kzhang28.jpg"
       netid: "kzhang28"
-
-- name: "Members from Other Departments"
-  people:
-    - name: "Junze Liu <h4>from ECE department</h4>"
-      image: "../group_member_photo/headshot/headshot_junzel2.jpg"
-      netid: "junzel2"
