@@ -17,6 +17,9 @@
     - name: "Yumeng Cao"
       image: "../group_member_photo/headshot/headshot_ycao31.png"
       netid: "ycao31"
+    - name: "Jonathan Echevers"
+      image: "../group_member_photo/headshot/headshot_jme3.jpg"
+      netid: "jme3"
     - name: "Matt Zhang"
       image: "../group_member_photo/headshot/headshot_mzhang60.jpg"
       netid: "mzhang60"
@@ -38,9 +41,6 @@
 
 - name: "Past Members"
   people:
-    - name: "Johny Echevers <h4>Graduate Student</h4>"
-      image: "../group_member_photo/headshot/headshot_jme3.jpg"
-      netid: "jme3"
     - name: "Dr. Ruo-Yu Shang <h4>Graduate Student</h4>"
       image: "../group_member_photo/headshot/headshot_rshang2.jpg"
       netid: "rshang2"
