@@ -8,7 +8,7 @@ baseurl: "/hooberman"
 
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 highlighter: null
 excerpt_separator: <!--more-->
