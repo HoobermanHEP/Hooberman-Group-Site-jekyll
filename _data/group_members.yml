@@ -17,21 +17,21 @@
     - name: "Yumeng Cao"
       image: "../group_member_photo/headshot/headshot_ycao31.jpg"
       netid: "ycao31"
-    - name: "Matt Zhang"
-      image: "../group_member_photo/headshot/headshot_mzhang60.jpg"
-      netid: "mzhang60"
-      
-- name: "Undergraduate Students"
-  people:
     - name: "Cunwei Fan"
       image: "../group_member_photo/headshot/placeholder.jpg"
       netid: "cfan11"
+    - name: "Matt Zhang"
+      image: "../group_member_photo/headshot/headshot_mzhang60.jpg"
+      netid: "mzhang60"
+    - name: "Kai Zheng"
+      image: "../group_member_photo/headshot/headshot_kaiz3.png"
+      netid: "kaiz3"
+      
+- name: "Undergraduate Students"
+  people:
     - name: "Anil Radhakrishnan"
       image: "../group_member_photo/headshot/headshot_anilr2.png"
       netid: "anilr2"
-    - name: "Kai Zheng"
-      image: "../group_member_photo/headshot/placeholder.jpg"
-      netid: "kaiz3"
       
 - name: "Members from Other Departments"
 
